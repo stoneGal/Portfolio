@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+     <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div >
+        <h1 class="podcast"> Overview</h1>
+        <div>
+            <h3  class="getstart">
+                This API was built with NodeJS express framework and meets all the requirements stated in the task document
+            </h3>
+
+            <div class="getstart">
+
+            <h3> Getting Started</h3>
+            <ol>
+                <li>
+                    Clone the repository by running the following command on your code editor <br />
+                   <strong><u> git clone https://github.com/stoneGal/Podcast_management_system.git</u></strong> 
+                </li>
+                <li>
+                    Install npm packages by running <br />
+                   <strong>npm install</strong>  
+                </li>
+                <li>
+                    Start the server by running <br />
+                    <strong>  npm run dev</strong> 
+                </li>
+            </ol>
+            <h2> API Usage</h2>
+       
+        <div>
+            <h3> Requirement 1</h3>
+        </div>
+
+        <div>
+            <p>To get podcast from users (external) by id, make a GET request to</p>
+            <ul>
+                <li><u>http://localhost:5000/id/podcast</u> </li>
+            </ul>
+
+            <h3>Requirements 2</h3>
+
+            <p> To create a new podcast </p>
+            <ul>
+                <li> Make a POST request to <u> http://localhost:5000/podcast</u> </li>
+            </ul>  
+            <p>
+                 To get all the users in the database</p>
+            <ul>
+                <li>make a GET request to users
+                    <u> http://localhost:5000/users</u></li>
+            </ul>
+            <p> Getting a single user by parameters</p>
+            <ul>
+                <li> To get a single user by it name from the database, make a GET request to
+                    <u>http://localhost:5000/user/:id</u> </li>
+            </ul>
+        </div>
+        <div>
+            <p>To get a single podcast by the user from the database, make a GET request to</p>
+            <ul>
+                <li><u>http://localhost:5000/users/:id/podcast/:podcastId</u> </li>
+            </ul>
+        </div>
+        <div>
+            <p>To update a Podcast</p>
+            <ul>
+                <li> Make a PATCH request to
+                    <u> http://localhost:5000/users/:id/podcast/:podcastId</u></li>
+            </ul>
+        </div>
+
+        <div>
+            <p> To delete a podcast</p>
+            <ul>
+                <li> Make a DELETE request to <u> http://localhost:5000/users/:id/podcast/:podcastId</u> </li>
+            </ul>
+        </div>
+        <div>
+            <p>To get a podcast</p>
+            <ul>
+                <li> Make a GET request to
+                    <u> http://localhost:5000/podcast</u>
+                    to get all podcast from the database</li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+    </div>
+</body>
+
+</html>
