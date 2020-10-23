@@ -1132,7 +1132,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-.php-email-form button[type='submit'] {
+/* .php-email-form button[type='submit'] {
   background: #0078ff;
   border: 0;
   padding: 10px 24px;
@@ -1141,6 +1141,18 @@ a:hover {
 }
 
 .php-email-form button[type='submit']:hover {
+  background: #3393ff;
+} */
+
+.php-email-form button {
+  background: #0078ff;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.php-email-form button:hover {
   background: #3393ff;
 }
 
