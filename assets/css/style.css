@@ -1066,7 +1066,7 @@ a:hover {
 }
 
 .php-email-form .validate {
-  display: none;
+  display: block;
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
@@ -1074,7 +1074,7 @@ a:hover {
 }
 
 .php-email-form .error-message {
-  display: none;
+  display: block;
   color: #fff;
   background: #ed3c0d;
   text-align: center;
@@ -1083,7 +1083,7 @@ a:hover {
 }
 
 .php-email-form .sent-message {
-  display: none;
+  display: block;
   color: #fff;
   background: #18d26e;
   text-align: center;
@@ -1092,7 +1092,7 @@ a:hover {
 }
 
 .php-email-form .loading {
-  display: none;
+  display: block;
   background: #fff;
   text-align: center;
   padding: 15px;
